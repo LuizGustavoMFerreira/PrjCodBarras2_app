@@ -39,3 +39,9 @@ h2{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+#imgCad{
+  border-width: 3px;
+  border-style: solid;
+  border-color: black; 
+}

@@ -13,6 +13,11 @@ $(document).on("click", "#btnVoltar", function(){
   $(location).attr("href", "index.html");
 });
 
+$(document).on("click", "#img", function(){
+  var img = $("#img").val();
+  $("#imgShow").val(img);
+});
+
 $(document).on("click","#btnSalvar", function(){
 
   var parametros = {
